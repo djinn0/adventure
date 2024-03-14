@@ -30,7 +30,7 @@ function generateMobileNavBar(){
     var e1 = "<a class='test' href='#'>Articles</a>";
     var e2 = "<a class='test' href='#'>Adventures</a>";
     var e3 = "<a class='test' href='#'>About</a>";
-    b.insertAdjacentHTML('afterbegin', "<details class='navigation'><summary class='navigation'><a href='index.html'>Ahoy &#9096</a></summary><div>" + e1 + e2 + e3 + "</div></details>");
+    b.insertAdjacentHTML('afterbegin', "<details class='navigation'><summary class='navigation'><a href='index.html'>Alyssa's Adventures &#127748</a></summary><div>" + e1 + e2 + e3 + "</div></details>");
     }
 
 function generateSyling()
