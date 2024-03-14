@@ -10,8 +10,8 @@ function generateFooter()
   var x = document.getElementsByTagName("body")[0];
   let d = new Date();
   let n = d.getFullYear(); /* Adds current year to footer */
-  let e1 = '<a href="#">Contact</a>';
-  let e2 = '<a href="#">Alyssa's Adventures &copy' + n + '</a>';
+  let e1 = '<a href="#">Contact 1</a>';
+  let e2 = '<a href="disclosure.html">Alyssa&#39s Adventures &copy' + n + '</a>';
   let e3 = '<a href="#">Disclosure</a>';
   let element = '<div id="element">' + e1 + e2 + e3 + '</div>';
   let anchor = '<div id="anchor">' + "\u2693" + '</div>';
